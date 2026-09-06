@@ -1,0 +1,36 @@
+{
+  "name": "patch-match",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier -w .",
+    "test": "vitest run",
+    "lint": "oxlint src"
+  },
+  "dependencies": {
+    "@effect/platform-browser": "4.0.0-rc.112",
+    "@foldkit/ui": "0.157.0",
+    "effect": "4.0.0-rc.112",
+    "foldkit": "0.157.0",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@foldkit/devtools": "0.157.0",
+    "@foldkit/devtools-mcp": "0.19.3",
+    "@foldkit/oxlint-plugin": "0.12.0",
+    "@foldkit/vite-plugin": "0.20.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "happy-dom": "^20.11.13",
+    "oxlint": "^1.80.0",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}
